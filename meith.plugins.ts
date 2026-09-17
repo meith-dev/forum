@@ -7,8 +7,11 @@
 // docs/customization/plugins.md explains both.
 
 import type { InstalledPlugin } from '@meith/web/config'
+import { messages as duesMessages, plugin as duesPlugin } from '@meith/plugin-dues'
 
-export const INSTALLED_PLUGINS: readonly InstalledPlugin[] = []
+export const INSTALLED_PLUGINS: readonly InstalledPlugin[] = [
+  { key: 'dues', enabled: true, plugin: duesPlugin, messages: duesMessages },
+]
 
 export function installedPluginDefinitions() {
   return INSTALLED_PLUGINS.filter(

@@ -1,3 +1,9 @@
 {
-  "plugins": []
+  "plugins": [
+    {
+      "key": "dues",
+      "package": "@meith/plugin-dues",
+      "enabled": true
+    }
+  ]
 }
