@@ -24,7 +24,7 @@ import { INSTALLED_PLUGINS } from './meith.plugins'
 
 export default defineForumConfig({
   themes: {
-    default: {
+    meith: {
       key: 'meith',
       title: 'Meith',
       tokens: { light: LIGHT_TOKENS, dark: DARK_TOKENS },
