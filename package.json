@@ -10,12 +10,12 @@
     "meith": "meith"
   },
   "dependencies": {
-    "@meith/cli": "0.37.6",
-    "@meith/plugin-dues": "0.37.6",
-    "@meith/theme-meith": "0.37.6",
-    "@meith/web": "0.37.6",
+    "@meith/cli": "0.39.0",
+    "@meith/plugin-dues": "0.39.0",
+    "@meith/theme-meith": "0.39.0",
+    "@meith/web": "0.39.0",
     "next": "16.3.4",
-    "@meith/theme-default": "0.37.6"
+    "@meith/theme-default": "0.39.0"
   },
   "engines": {
     "node": ">=22"
